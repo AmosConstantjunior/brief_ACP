@@ -25,8 +25,6 @@ app.layout = html.Div([
 def display_page(pathname):
     if pathname == '/acp':
         return app1.layout
-    elif pathname == '/app3':
-        return app3.layout
     elif pathname == '/':
         return dashbord.layout
     else:
